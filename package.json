@@ -3,7 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run index.ts"
+    "dev": "bun run index.ts",
+    "clear": "bun run clear.ts",
+    "compress": "bun run compress.ts"
   },
   "devDependencies": {
     "bun-types": "latest"
